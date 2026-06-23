@@ -28,7 +28,7 @@ app.use('/cart',     cartRoutes);     // GET /cart        POST /cart/add     DEL
 app.use('/orders',   orderRoutes);    // POST /orders/place
 
 app.get('/',(req,res)=>{
-    res.send("kle Ecommerce Backend ")
+    res.send("kle Ecommerce Backend is Running ");
 });
 // ── Start Server ──────────────────────────────────────────────────────────────
 const PORT = process.env.PORT || 8000;
